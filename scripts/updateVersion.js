@@ -15,7 +15,7 @@ const setVersion = (version) => (text) =>
   ) .replace (
     /caption\: About \(version ([^\)]+)\)\s*\n/,
     (_, v) => `caption: About (version ${version == 'latest' ? (v .trim () .replace (/\+/g, '') + '+') : version})\n`
-  )``
+  )
 
 const delay = (ms) => (v) =>
   new Promise ((res) => setTimeout (() => res (v), ms)) 
