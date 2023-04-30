@@ -1,0 +1,17 @@
+created: 20221113013516053
+modified: 20230430232115166
+tags: Overview $:/tags/SkipNearby
+title: TiddlyWiki Documentation
+type: text/vnd.tiddlywiki
+
+<details>
+<summary>How this documentation is [[organized|Documentation organization]]</summary>
+{{Documentation organization}}
+</details>
+
+{{$:/tiddox/tags/TableOfContents}}
+
+<br/><hr/>
+<$list filter="[!is[system]!has[draft.of]] +[!sort[modified]limit[1]]">
+<small>Documentation [[last updated|https://github.com/CrossEye/TW5-Documentation]] <$view field="modified" format="date" template="MMM DD, YYYY @ hh12:0mm AM"/>.  Running on [[Tiddlywiki|https://tiddlywiki.com/]] <<version>>.  See the [[credits page|Credits]] for more details</small>
+</$list>

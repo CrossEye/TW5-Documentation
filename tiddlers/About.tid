@@ -1,0 +1,11 @@
+caption: About (version 0.1.0)
+created: 20230430231433441
+modified: 20230430231807812
+tags: $:/tiddox/tags/ContentType TODO
+title: About
+type: text/vnd.tiddlywiki
+version: 0.1.0
+
+!! Version
+
+{{!!version}}
