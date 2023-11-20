@@ -1,9 +1,10 @@
+caption: References
 color: #ccf
 created: 20230428184259005
-modified: 20230429190601967
-revision: 0
+modified: 20231119040640552
 tags: Overview $:/tiddox/tags/ContentType
-title: References
+title: Reference
+type: text/vnd.tiddlywiki
 
 {{$:/tiddox/content/overview/References}}
 

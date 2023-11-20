@@ -1,0 +1,7 @@
+created: 20230830142553245
+modified: 20231119034547952
+tags: $:/tags/ViewTemplateTitleFilter
+title: $:/tiddox/config/ViewTemplateTitleFilters/caption
+type: text/vnd.tiddlywiki
+
+[<currentTiddler>has[caption]then[$:/tiddox/core/ui/ViewTemplate/title/caption]]

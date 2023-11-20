@@ -1,12 +1,13 @@
+caption: Explanations
 color: #fc6
 created: 20230428183612141
-modified: 20230429190601967
-revision: 0
+modified: 20231119033752125
 tags: Overview $:/tiddox/tags/ContentType
-title: Explanations
+title: Explanation
+type: text/vnd.tiddlywiki
 
 {{$:/tiddox/content/overview/Explanations}}
 
 !! Explanations
 
-<<list-links filter:[tag[Explanations]]>>
+<<list-links filter:[tag[Explanation]]>>

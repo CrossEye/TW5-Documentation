@@ -1,0 +1,43 @@
+created: 20231119040936783
+modified: 20231119205939435
+tags: [[Hide and show]] [[View Template]] [[How-to guide]]
+title: Conditionally showing view templates
+ttw-articles: 8482
+type: text/vnd.tiddlywiki
+
+[[View templates]] appear by default on every tiddler.  We can conditionally show or hide one the [[same way|How to hide and show content]] we do with any content: by wrapping its body in a [[`<$list...>` widget|ListWidget]] that either yields no values or yields a single value.
+
+!!! The problem
+
+Perhaps we have a number of tiddlers representing book Authors, and we want to add a footer to each one listing the author's published works.  We start with something like this:
+
+```
+title: $:/book-wiki/templates/author
+tags: $:/tags/ViewTemplate
+
+!! Published Works
+<<list-links filter:"[tag[Book]get[author]match<currentTiddler>" >>
+```
+
+<<example wiki:books tiddler:$:/examples/42 >>
+
+
+This works fine for our Author tiddlers.  But it also affects every other one as well.  Oops!  We need to restrict it.
+
+
+!!! The solution
+
+<!-- Example; wiki: books; tiddler: $:/examples/42 --> 
+<pre><code>title: $:/book-wiki/templates/author
+tags: $:/tags/ViewTemplate
+
+<ins>&lt;$list filter="[&lt;currentTiddler&gt;tag[Author]]" variable="_"&gt;</ins>
+!! Published Works
+&lt;&lt;list-links filter:"[tag[Book]get[author]match&lt;currentTiddler>" >>
+<ins>&lt;/$list></ins></code></pre>
+
+
+<<example wiki:books tiddler:$:/examples/43 >>
+
+Note that the use of <code><ins>variable="_"</ins></code> [[is important|List counter]] any time you need to make a reference to [[currentTiddler|Current tiddler]] in the body you've wrapped.
+

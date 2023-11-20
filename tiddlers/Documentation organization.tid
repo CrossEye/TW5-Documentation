@@ -1,6 +1,5 @@
 created: 20221112185926263
-modified: 20230429191053138
-revision: 0
+modified: 20231119033752124
 tags: Overview
 title: Documentation organization
 type: text/vnd.tiddlywiki
@@ -17,9 +16,9 @@ The bulk of this documentation is divided into four groups, as described by the 
 
 <table class="doc-overview">
   <tr>
-    <td><h3>[[Tutorials]]</h3><h4>Learning-oriented</h4></td>
+    <td><h3>[[Tutorial]]</h3><h4>Learning-oriented</h4></td>
     <td>Practical Steps</td>
-    <td><h3>[[How-To Guides|How-to guides]]</h3><h4>Problem-oriented</h4></td>
+    <td><h3>[[How-To Guides|How-to guide]]</h3><h4>Problem-oriented</h4></td>
   </tr>
   <tr>
     <td>Most useful when we're studying</td>
@@ -27,9 +26,9 @@ The bulk of this documentation is divided into four groups, as described by the 
     <td>Most useful when we're working</td>
   </tr>
   <tr>
-    <td><h4>Understanding-oriented</h4><h3>[[Explanations]]</h3></td>
+    <td><h4>Understanding-oriented</h4><h3>[[Explanation]]</h3></td>
     <td>Theoretical Knowledge</td>
-    <td><h4>Information-oriented</h4><h3>[[References]]</h3></td>
+    <td><h4>Information-oriented</h4><h3>[[Reference]]</h3></td>
   </tr>
 </table>
 

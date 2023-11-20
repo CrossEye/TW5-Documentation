@@ -1,13 +1,14 @@
+caption: Tutorials
 color: #6f6
 created: 20221112155643110
 list: [[Getting started]] [[Moving up]]
-modified: 20230430233702915
+modified: 20231119033710016
 tags: $:/tiddox/tags/ContentType Overview
-title: Tutorials
+title: Tutorial
 type: text/vnd.tiddlywiki
 
 {{$:/tiddox/content/overview/Tutorials}}
 
 !! Tutorials
 
-<<list-links filter:[tag[Tutorials]]>>
+<<list-links filter:[tag[Tutorial]]>>

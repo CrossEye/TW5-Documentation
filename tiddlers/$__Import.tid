@@ -1,7 +1,9 @@
+modified: 20231119034547952
 status: complete
 title: $:/Import
 type: text/vnd.tiddlywiki
 
 The following tiddlers were imported:
 
-# [[About]]
+# [[$:/tiddox/core/ui/ViewTemplate/title/caption]]
+# [[$:/tiddox/config/ViewTemplateTitleFilters/caption]]
